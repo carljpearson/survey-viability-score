@@ -50,7 +50,7 @@ server <- function(input, output) {
     viability_message <- NULL
     
     if (viability >= 1) {
-      viability_message <- "Your SV score is above one so you're likely to get the number of responses you need for analysis based on the invites you can send."
+      viability_message <- "Your SV score is above 1 so you're likely to get the number of responses you need for analysis based on the invites you can send."
     } else if (viability >= 0.9) {
       viability_message <- "Your SV score is slightly below 1. You could run your survey as is but will have decreased power and will exhaust your survey invite pool."
     } else if (viability >= 0.5) {
